@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Vibes Form</title>
+</head>
+<body>
+    <header>
+        <h1>Good Vibes Form</h1>
+    </header>
+    <main>
+         <div>
+        <form action="url" method="get">
+            <p>Tell us something positive that happen to you today.</p>
+            <div>
+                <label for="userName">Name</label>
+                <input type="text" name="userName" id="userName" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+            </div>
+            <div>
+                <label for="scale">On a scale of 1-10, how good was today?</label>
+                <input type="number" name="scale" id="scale" min="1" max="10" required>             
+            </div>
+            <div>
+                <label for="dropbox">Where were you?</label>
+                <select name="dropbox" id="dropbox">
+                    <option value="home">At home</option>
+                    <option value="commute">On my commute</option>
+                    <option value="work">At work</option>
+                    <option value="outside">On the street</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </form>
+    </div>
+    </main>
+   
+    
+</body>
+</html>
